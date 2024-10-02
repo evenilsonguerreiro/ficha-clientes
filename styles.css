@@ -1,0 +1,46 @@
+:root {
+    --corPrincipal:'#95a5a6'
+    --corDefundo:'#7f8c8d'
+}
+body{
+    background-color: var(); 
+ }
+ input{
+     text-transform: uppercase;
+     margin-bottom: 5px;
+ }
+ td{
+     text-transform: uppercase;
+ }
+
+ h1 {
+    color:var(--corPrincipal);
+ }
+ h3 {
+    color:#fdcb6e ;
+ }
+ .btn-danger {
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+ }
+ 
+ @media (max-width:767px){
+     input{
+       margin-bottom: 2%;  
+     }
+     tr{
+         font-size: 10px;
+     }
+     img{
+         width: 100px;
+         
+     }
+     h1{
+         font-size: 20px;
+         margin-top: 10px;
+     }
+     buttom{
+         width: 200px;
+     }
+ }
