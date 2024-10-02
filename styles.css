@@ -1,13 +1,13 @@
 :root {
-    --corPrincipal:'#95a5a6'
-    --corDefundo:'#7f8c8d'
+    --corPrincipal:'#ecf0f1'
+    
 }
 body{
     background-color: var(); 
  }
  input{
-     text-transform: uppercase;
-     margin-bottom: 5px;
+    border: 1px solid #000;
+    
  }
  td{
      text-transform: uppercase;
@@ -19,9 +19,16 @@ body{
  h3 {
     color:#fdcb6e ;
  }
+ td.data {
+    color: green;
+ }
+ 
  .btn-danger {
-    width: 70px;
-    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 20px;
     font-size: 12px;
  }
  
@@ -43,4 +50,16 @@ body{
      buttom{
          width: 200px;
      }
+     .btn-danger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 16px;
+        font-size: 8px;
+     }
+     .btn-success {
+        width: 100%;
+     }
+     
  }
