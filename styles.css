@@ -3,19 +3,25 @@
    padding: 0;
   
 }
-
-
 body{
     background-color: black;
  }
  
-
  td{
      text-transform: uppercase;
  }
+ 
+ .destaque {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+.destaque ,span, p {
+   color: white;
+}
 
  .text-center {
-    color:#EAB543 ;
+    color:white ;
     font-weight: bold;
  }
  h3 {

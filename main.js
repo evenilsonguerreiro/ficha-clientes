@@ -82,5 +82,8 @@ form.addEventListener('submit', function(e) {
     inputDia.value = '';
 });
 
+const anoAtual = new Date().getFullYear();
+document.getElementById('ano-atual').textContent = anoAtual;
+
 // Carregar os dados do LocalStorage ao carregar a página
 window.onload = carregarDados;
