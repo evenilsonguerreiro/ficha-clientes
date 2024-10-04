@@ -44,6 +44,7 @@ function carregarDados() {
     });
 }
 
+
 // Função para excluir um item da tabela e do LocalStorage
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function deletar(element, nome, horario) {

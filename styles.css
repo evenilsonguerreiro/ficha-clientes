@@ -10,12 +10,6 @@ body{
  td{
      text-transform: uppercase;
  }
- 
- .destaque {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
- }
 .destaque ,span, p {
    color: white;
 }
